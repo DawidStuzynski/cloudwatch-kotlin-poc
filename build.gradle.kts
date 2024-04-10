@@ -11,6 +11,8 @@ repositories {
 
 dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test")
+    implementation("com.amazonaws:aws-java-sdk-cloudwatch:1.12.692")
+    implementation("com.amazonaws:aws-java-sdk-logs:1.12.691")
 }
 
 tasks.test {
